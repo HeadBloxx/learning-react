@@ -9,5 +9,8 @@ function UserGreeting(props){
         </h2>
     return(props.isLoggedIn) ? welcomeMessage : loginPrompt
 }
-
+UserGreeting.proptypes = {
+    isLoggedIn: PropTypes.bool,
+    username: PropTypes.string,
+}
 export default UserGreeting
