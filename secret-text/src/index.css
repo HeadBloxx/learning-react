@@ -1,0 +1,8 @@
+.secret{
+  color: hsla(0, 0%, 20%, 0.3);
+  box-shadow: 0px 10px 20px grey;
+}
+
+p {
+  font-size: larger;
+}
