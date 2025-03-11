@@ -1,0 +1,30 @@
+@keyframes hover{
+    from {color: #EFB6C8}
+    to {color: #f8f8f8}
+}
+
+body {
+    text-align: center;
+    background-color: #8174A0;
+}
+
+.unordered-list {
+    list-style: none;
+}
+
+.list-item {
+    border-radius: 10px;
+    background-color: #441752;
+    font-size:larger;
+    height: 5rem;
+    width: 20rem;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #EFB6C8;
+    transition: color 0.1s ease-out 10ms
+}
+.list-item:hover {
+    color: #f8f8f8
+}
